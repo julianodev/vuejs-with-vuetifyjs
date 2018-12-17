@@ -1,4 +1,4 @@
-# demo-vuejs
+# demo-vuejs with vuetifyjs
 
 ## Project setup
 ```
