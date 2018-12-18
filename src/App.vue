@@ -1,19 +1,15 @@
-<template>
-  <HomeComponent :name="name"/>
+<template >
+  <router-view/>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue, Emit } from "vue-property-decorator";
-import HomeComponent from "./components/home/home.component.vue";
 
 @Component({
-  name: "app",
-  components: {
-    HomeComponent
-  }
+  name: "app"
 })
-export default class AppComponent extends Vue {
-  @Prop()
-  name: string = "Lucas Juliano";
-}
+export default class AppComponent extends Vue {}
 </script>
+
+<style lang="scss">
+</style>
